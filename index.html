@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PinkHUB - Roblox Script</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">PinkHUB</div>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#features">Recursos</a></li>
+                <li><a href="#download">Download</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>PinkHUB</h1>
+                <p>O script mais completo para Roblox</p>
+                <button class="cta-button" onclick="scrollToDownload()">Download Grátis</button>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <h2>Recursos Principais</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3>Movement</h3>
+                    <ul>
+                        <li>WalkSpeed & JumpPower</li>
+                        <li>Fly & NoClip</li>
+                        <li>Infinite Jump</li>
+                        <li>Speed Boost</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <h3>Combat</h3>
+                    <ul>
+                        <li>Kill Aura</li>
+                        <li>Aimbot</li>
+                        <li>Auto Clicker</li>
+                        <li>Auto Parry</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <h3>Visual</h3>
+                    <ul>
+                        <li>ESP (Box, Name, Health)</li>
+                        <li>Tracers</li>
+                        <li>Fullbright</li>
+                        <li>Chams</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <h3>Misc</h3>
+                    <ul>
+                        <li>Anti-AFK</li>
+                        <li>FPS Boost</li>
+                        <li>Click TP</li>
+                        <li>No Fall Damage</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="download" class="download">
+            <h2>Download PinkHUB</h2>
+            <div class="download-content">
+                <div class="download-info">
+                    <h3>Como usar:</h3>
+                    <ol>
+                        <li>Copie o script abaixo</li>
+                        <li>Abra um executor (Synapse X, KRNL, etc.)</li>
+                        <li>Cole o script e execute</li>
+                        <li>Pressione INSERT para abrir/fechar</li>
+                    </ol>
+                </div>
+                <div class="script-container">
+                    <textarea id="script-code" readonly>loadstring(game:HttpGet("https://raw.githubusercontent.com/user/repo/main/PinkHUB.lua"))()
+-- OU cole o script completo aqui</textarea>
+                    <button onclick="copyScript()">Copiar Script</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="warning">
+            <h3>⚠️ Aviso Importante</h3>
+            <p>Use por sua própria conta e risco. Scripts podem resultar em banimento da conta.</p>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <p>&copy; 2024 PinkHUB - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
